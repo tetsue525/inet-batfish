@@ -46,7 +46,7 @@
     const response = await fetch('http://localhost:9996/v2/networks/mynetwork/snapshots/mysnapshot/topology', 
     {
       headers: {'X-Batfish-Version': '0.36.0'},
-      //mode:"no-cors",
+      mode:"no-cors",
     });
     
   new Diagram(
