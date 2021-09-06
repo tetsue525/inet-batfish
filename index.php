@@ -1,1 +1,1 @@
-<?php include_once("/example/index.html"); ?>
+<?php require('/example/index.html'); ?>
